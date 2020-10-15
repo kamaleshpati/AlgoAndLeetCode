@@ -1,6 +1,7 @@
 from collections import defaultdict 
   
 MAX_CHARS = 256
+
 def findSubString(strr):       
     n = len(strr) 
     dist_count = len(set([x for x in strr])) 
