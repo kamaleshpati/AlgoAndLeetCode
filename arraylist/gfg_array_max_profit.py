@@ -15,7 +15,7 @@ def stockBuySell(price, n):
             i += 1
         sell = i - 1
 
-        print("Buy on day: ", buy, "\t", "Sell on day: ", sell)
+        print(f"({buy} {sell})",end=" ")
 
 
 if __name__ == '__main__':
